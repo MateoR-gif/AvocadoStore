@@ -1,0 +1,15 @@
+.ul{
+    text-decoration: none;
+    display: grid;
+    padding: 0;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    border: 1px solid white;
+}
+
+.li{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
